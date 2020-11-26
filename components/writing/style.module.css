@@ -1,0 +1,14 @@
+.root {
+  padding-top: 222px;
+}
+
+.buttonWrapper {
+  margin: 45px 0px 130px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}

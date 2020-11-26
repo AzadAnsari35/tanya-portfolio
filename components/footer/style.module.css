@@ -1,0 +1,9 @@
+.root {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #000000;
+}
+
+.button {
+  background-color: #fff337 !important;
+}

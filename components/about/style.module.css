@@ -1,0 +1,22 @@
+.root {
+  background-color: #f5f5f5;
+  padding-top: 36px;
+  padding-bottom: 60px;
+}
+
+.heading {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.heading::after {
+  content: "";
+  width: 218px;
+  height: 14px;
+  background: #fff337;
+  border-radius: 0px 0px 30px 0px;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
