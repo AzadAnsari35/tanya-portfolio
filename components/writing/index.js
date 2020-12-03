@@ -19,6 +19,7 @@ const Writings = () => {
             altText="grow"
             width={394}
             height={394}
+            link="https://medium.com/the-innovation/the-biggest-elephant-in-the-room-of-design-creative-block-ab3902554957"
           />
         </Grid>
         <Grid item xs={4} className="d-flex justify-content-center">
@@ -28,6 +29,7 @@ const Writings = () => {
             altText="grow"
             width={394}
             height={394}
+            link="https://medium.com/an-idea/how-being-into-ux-design-makes-me-a-better-person-14a2d12dbf30"
           />
         </Grid>
 
@@ -38,6 +40,7 @@ const Writings = () => {
             altText="grow"
             width={394}
             height={394}
+            link="https://medium.com/design-bootcamp/get-started-in-ux-ui-career-without-a-mentor-bc955ca7199"
           />
         </Grid>
       </Grid>

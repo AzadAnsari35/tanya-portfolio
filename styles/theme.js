@@ -17,12 +17,17 @@ const theme = createMuiTheme({
     ].join(","),
   },
 
+  spacing: 4,
+
   palette: {
     primary: {
       main: "#FFF337",
     },
     textPrimary: {
       main: "#000000",
+    },
+    textSecondary: {
+      main: "#ffffff",
     },
   },
   typography: {
@@ -65,6 +70,11 @@ const theme = createMuiTheme({
       fontFamily: "ITCAvantGardeStdBk",
       fontWeight: 300,
       fontSize: "1.25rem",
+    },
+    body2: {
+      fontFamily: "ITCAvantGardeStdBk",
+      fontWeight: 300,
+      fontSize: "1.125rem",
     },
   },
 
