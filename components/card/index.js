@@ -6,7 +6,15 @@ import style from "./style.module.css";
 import LockIcon from "@material-ui/icons/Lock";
 
 const Card = (props) => {
-  const { caption, link = "/", imgPath, altText, width, height } = props;
+  const {
+    caption,
+    link = "/",
+    imgPath,
+    altText,
+    width,
+    height,
+    isCaseStudy,
+  } = props;
   return (
     <Link href={link}>
       <div style={{ width }} className={`cursor-pointer ${style.workCard}`}>
@@ -17,9 +25,11 @@ const Card = (props) => {
           height={height}
           className="border-radius-8 img"
         />
-        <div className={style.overlay}>
-          <LockIcon style={{ fontSize: 80 }} />
-        </div>
+        {isCaseStudy && (
+          <div className={style.overlay}>
+            <LockIcon style={{ fontSize: 80 }} />
+          </div>
+        )}
 
         <Typography variant="caption">{caption}</Typography>
       </div>

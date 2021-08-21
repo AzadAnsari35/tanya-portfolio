@@ -16,6 +16,7 @@ const CaseStudies = () => {
             width={640}
             height={496}
             link="case-studies/groww"
+            isCaseStudy={true}
           />
         </div>
 
@@ -26,6 +27,7 @@ const CaseStudies = () => {
             altText="grow"
             width={640}
             height={496}
+            isCaseStudy={true}
           />
         </div>
 
@@ -36,6 +38,7 @@ const CaseStudies = () => {
             altText="grow"
             width={640}
             height={496}
+            isCaseStudy={true}
           />
         </div>
       </div>
