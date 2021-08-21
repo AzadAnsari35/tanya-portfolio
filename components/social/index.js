@@ -17,6 +17,7 @@ const Social = () => {
             icon="/dribbble.svg"
             title="Dribbble"
             caption="Aesthetic UIs"
+            link="https://dribbble.com/tanu_design"
           />
         </Grid>
         <Grid item xs={4}>
@@ -25,6 +26,7 @@ const Social = () => {
             icon="/behance.svg"
             title="Behance"
             caption="Graphics Work"
+            link="https://www.behance.net/tanyanarangux"
           />
         </Grid>
         <Grid item xs={4}>
@@ -33,6 +35,7 @@ const Social = () => {
             icon="/medium.svg"
             title="Medium"
             caption="Design Articles"
+            link="https://tanunarang.medium.com/"
           />
         </Grid>
 
@@ -42,6 +45,7 @@ const Social = () => {
             icon="/linkedin.svg"
             title="Linkedin"
             caption="Work Experience"
+            link="https://www.linkedin.com/in/tanyanarang/"
           />
         </Grid>
 
@@ -51,6 +55,7 @@ const Social = () => {
             icon="/instagram.svg"
             title="Instagram"
             caption="What i’m up to"
+            link="https://www.instagram.com/azadanarkali/"
           />
         </Grid>
 
@@ -60,6 +65,7 @@ const Social = () => {
             icon="/twitter.svg"
             title="Twitter"
             caption="Random Thoughts"
+            link="https://twitter.com/tanyanarang_"
           />
         </Grid>
       </Grid>

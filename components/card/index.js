@@ -27,7 +27,7 @@ const Card = (props) => {
         />
         {isCaseStudy && (
           <div className={style.overlay}>
-            <LockIcon style={{ fontSize: 80 }} />
+            <LockIcon style={{ fontSize: 40 }} />
           </div>
         )}
 

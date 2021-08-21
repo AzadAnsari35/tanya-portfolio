@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/logo.svg" />
       </Head>
 
-      <Box py={50}>
+      <Box py={30}>
         <Typography className="text-align-center" variant="h1">
           Turning Complexities
           <br /> into{" "}

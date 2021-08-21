@@ -8,7 +8,7 @@ import Button from "@material-ui/core/Button";
 const Writings = () => {
   return (
     <div className={`container ${style.root}`}>
-      <Typography variant="h5" className="pb-20">
+      <Typography variant="h5" align="center" className="pb-20">
         Writings
       </Typography>
       <Grid container className={style.container}>

@@ -32,7 +32,7 @@ const theme = createMuiTheme({
   },
   typography: {
     h1: {
-      fontSize: "5.625rem",
+      fontSize: "6rem",
       fontFamily: "ITCAvantGardeStdBold",
       lineHeight: "128px",
       letterSpacing: "0rem",

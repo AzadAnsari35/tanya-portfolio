@@ -2,4 +2,5 @@
   padding: 46px 54px;
   border-radius: 8px;
   display: flex;
+  cursor: pointer;
 }

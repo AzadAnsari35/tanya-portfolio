@@ -2,13 +2,17 @@
   position: relative;
 }
 
+.workCard img {
+  max-width: 100%;
+}
+
 .workCard:hover .overlay {
   opacity: 1;
 }
 
 .overlay {
   position: absolute;
-  bottom: 40px;
+  bottom: 85px;
   top: 0;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
