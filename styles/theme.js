@@ -46,7 +46,7 @@ const theme = createMuiTheme({
     h3: {
       fontFamily: "ITCAvantGardeStdBold",
       fontWeight: 700,
-      fontSize: "3rem",
+      fontSize: "2.5rem",
     },
     h5: {
       fontFamily: "ITCAvantGardeStdBold",

@@ -24,7 +24,7 @@ const Footer = () => {
           </Typography>
           <Typography variant="body1" className="d-flex align-items-center">
             <CopyrightIcon />
-            2020 Tanya Narang
+            2021 Tanya Narang
           </Typography>
         </div>
       </div>

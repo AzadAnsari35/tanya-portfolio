@@ -8,7 +8,9 @@ function MyApp({ Component, pageProps }) {
   return (
     <MuiThemeProvider theme={theme}>
       <Header />
-      <Component {...pageProps} />
+      <div style={{ minHeight: 500 }}>
+        <Component {...pageProps} />
+      </div>
       <Footer />
     </MuiThemeProvider>
   );
