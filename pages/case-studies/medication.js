@@ -14,7 +14,7 @@ const Medication = () => {
     setValue(inputRef.current.value);
   }
 
-  if (value === "12345")
+  if (value === "tnbkjprggn1102hp")
     return (
       <div>
         <Box
@@ -194,7 +194,7 @@ const Medication = () => {
               <Grid container spacing={6} display="flex">
                 <Grid item xs={6}>
                   <img
-                    src="/medication/ca3.png"
+                    src="/medication/ca2.png"
                     style={{ objectFit: "fill" }}
                     width="100%"
                     height="100%"
@@ -307,7 +307,7 @@ const Medication = () => {
                   </Grid>
                 </Grid>
               </Grid>
-              <Typography variant="caption" color="textPrimary">
+              <Typography variant="subtitle1" color="textPrimary">
                 Some important point to be noted
               </Typography>
               <Typography

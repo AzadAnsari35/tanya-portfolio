@@ -15,7 +15,9 @@ const Footer = () => {
       </Typography>
       <div className="d-flex justify-content-between">
         <div>
-          <Button className={style.button}>Contact Me</Button>
+          <a href="mailto:recipient@domain.com?cc=other@domain.com">
+            <Button className={style.button}>Contact Me</Button>
+          </a>
         </div>
         <div className="color-white">
           <Typography variant="body1" className="pb-70">

@@ -14,7 +14,7 @@ const Grow = () => {
     setValue(inputRef.current.value);
   }
 
-  if (value === "12345")
+  if (value === "tnbkjprggn1102hp")
     return (
       <div>
         <Box
