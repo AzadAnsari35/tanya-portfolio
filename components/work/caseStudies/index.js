@@ -13,7 +13,7 @@ const CaseStudies = () => {
       <Grid container spacing={4} className={style.container}>
         <Grid item xs={4} className="d-flex justify-content-center">
           <Card
-            caption="Grow - B2B Employee Engagement"
+            caption="Groww - A mentorship Platform"
             imgPath="/case1.png"
             altText="grow"
             width={394}
@@ -25,18 +25,19 @@ const CaseStudies = () => {
 
         <Grid item xs={4} className="d-flex justify-content-center">
           <Card
-            caption="Savour - Restaurant business boosting app"
+            caption="Digital Electronic Medication Administration Record"
             imgPath="/case2.png"
             altText="grow"
             width={394}
             height={394}
             isCaseStudy={true}
+            link="case-studies/medication"
           />
         </Grid>
 
         <Grid item xs={4} className="d-flex justify-content-center">
           <Card
-            caption="Grow - B2B Employee Engagement"
+            // caption="Grow - B2B Employee Engagement"
             imgPath="/case3.png"
             altText="grow"
             width={394}

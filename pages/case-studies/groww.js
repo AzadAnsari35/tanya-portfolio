@@ -80,7 +80,12 @@ const Grow = () => {
               choose which mentor to go ahead with and start the learning
               journey.
             </Typography>
-            <img src="/groww/solution.png" />
+            <img
+              src="/groww/solution.png"
+              style={{ objectFit: "contain" }}
+              width="100%"
+              height="100%"
+            />
           </Box>
 
           <Box pb={40}>
@@ -149,7 +154,12 @@ const Grow = () => {
               <Typography variant="h3" className="pb-12" color="textPrimary">
                 Research Stats
               </Typography>
-              <img src="/groww/stats.png" />
+              <img
+                src="/groww/stats.png"
+                style={{ objectFit: "contain" }}
+                width="100%"
+                height="100%"
+              />
             </Box>
           </Box>
 
@@ -158,7 +168,12 @@ const Grow = () => {
               User Persona
             </Typography>
             <Grid container>
-              <img src="/groww/persona.png" />
+              <img
+                src="/groww/persona.png"
+                style={{ objectFit: "contain" }}
+                width="100%"
+                height="100%"
+              />
 
               {/* <Grid item xs={4}></Grid>
           <Grid item xs={8}></Grid> */}
@@ -177,7 +192,12 @@ const Grow = () => {
               this-
             </Typography>
             <Box display="flex" justifyContent="center">
-              <img src="/groww/app-flow.png" />
+              <img
+                src="/groww/app-flow.png"
+                style={{ objectFit: "contain" }}
+                width="100%"
+                height="100%"
+              />
             </Box>
           </Box>
 
@@ -403,7 +423,12 @@ const Grow = () => {
               </Typography>
             </Box>
           </Box> */}
-            <img src="/groww/features.png" />
+            <img
+              src="/groww/features.png"
+              style={{ objectFit: "contain" }}
+              width="100%"
+              height="100%"
+            />
           </Box>
         </div>
         <Box bgcolor="#0057ff" pt={21} pl={13}>
