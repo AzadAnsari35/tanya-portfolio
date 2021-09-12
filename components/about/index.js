@@ -8,7 +8,7 @@ const About = () => {
       <Typography className={style.heading} variant="h3">
         About Me
       </Typography>
-      <div className="d-flex">
+      <div className={`d-flex ${style.about_content}`}>
         <div className="pr-60">
           <img src="/tanya.png" alt="my photo" className="border-radius-40" />
         </div>

@@ -22,7 +22,6 @@ const Card = (props) => {
           src={imgPath}
           alt={altText}
           width={width}
-          height={height}
           className="border-radius-8 img"
         />
         {isCaseStudy && (

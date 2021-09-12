@@ -217,7 +217,7 @@ const Grow = () => {
               <Typography variant="h3" className="pb-24" color="textPrimary">
                 1. Finding the correct match
               </Typography>
-              <Box display="flex">
+              <Box display="flex" className="challenges">
                 <Typography
                   variant="body2"
                   className="pb-24"
@@ -246,7 +246,7 @@ const Grow = () => {
               <Typography variant="h3" className="pb-24" color="textPrimary">
                 2.After Match, Communication and Ice breaking
               </Typography>
-              <Box display="flex" alignItems="end">
+              <Box display="flex" alignItems="end" className="challenges">
                 <Typography
                   variant="body2"
                   className="pb-24"
@@ -275,7 +275,7 @@ const Grow = () => {
               <Typography variant="h3" className="pb-24" color="textPrimary">
                 3. Time Syncing for meetings
               </Typography>
-              <Box display="flex">
+              <Box display="flex" className="challenges">
                 <Typography
                   variant="body2"
                   className="pb-24"
@@ -301,7 +301,7 @@ const Grow = () => {
               <Typography variant="h3" className="pb-24" color="textPrimary">
                 4. Measuring the progess
               </Typography>
-              <Box display="flex">
+              <Box display="flex" className="challenges">
                 <Typography
                   variant="body2"
                   className="pb-24"
@@ -333,7 +333,7 @@ const Grow = () => {
               <Typography variant="h3" className="pb-24" color="textPrimary">
                 5. Managing the notes
               </Typography>
-              <Box display="flex">
+              <Box display="flex" className="challenges">
                 <Typography
                   variant="body2"
                   className="pb-24"
@@ -358,7 +358,7 @@ const Grow = () => {
               <Typography variant="h3" className="pb-24" color="textPrimary">
                 6. Engagement of both mentee and mentor
               </Typography>
-              <Box display="flex">
+              <Box display="flex" className="challenges">
                 <Typography
                   variant="body2"
                   className="pb-24"
@@ -438,7 +438,7 @@ const Grow = () => {
       </div>
     );
   return (
-    <Box display="flex" flexDirection="column" alignItems="center">
+    <Box display="flex" flexDirection="column" alignItems="center" px={5}>
       <p>
         This content is password protected. To view it please enter your
         password below:

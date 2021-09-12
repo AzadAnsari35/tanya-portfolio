@@ -20,3 +20,13 @@
   left: 50%;
   transform: translate(-50%, 0%);
 }
+
+@media only screen and (max-width: 425px) {
+  .about_content {
+    display: block !important;
+  }
+  .about_content img {
+    width: 80%;
+    margin-bottom: 40px;
+  }
+}

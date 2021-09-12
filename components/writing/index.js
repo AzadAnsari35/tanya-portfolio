@@ -11,21 +11,21 @@ const Writings = () => {
       <Typography variant="h5" align="center" className="pb-20">
         Writings
       </Typography>
-      <Grid container className={style.container}>
-        <Grid item xs={4} className="d-flex justify-content-center">
+      <Grid container spacing={4} className={style.container}>
+        <Grid item xs={12} lg={4} className="d-flex justify-content-center">
           <Card
             caption="The biggest elephant in the room of design"
-            imgPath="/writing(1).jpeg"
+            imgPath="/writing(1).png"
             altText="grow"
             width={394}
             height={394}
             link="https://medium.com/the-innovation/the-biggest-elephant-in-the-room-of-design-creative-block-ab3902554957"
           />
         </Grid>
-        <Grid item xs={4} className="d-flex justify-content-center">
+        <Grid item xs={12} lg={4} className="d-flex justify-content-center">
           <Card
             caption="How being into UX design makes me a better person."
-            imgPath="/writing(2).jpeg"
+            imgPath="/writing(2).png"
             altText="grow"
             width={394}
             height={394}
@@ -33,10 +33,10 @@ const Writings = () => {
           />
         </Grid>
 
-        <Grid item xs={4} className="d-flex justify-content-center">
+        <Grid item xs={12} lg={4} className="d-flex justify-content-center">
           <Card
             caption="Getting started in UX/UI without a mentor"
-            imgPath="/writing(3).jpeg"
+            imgPath="/writing(3).png"
             altText="grow"
             width={394}
             height={394}

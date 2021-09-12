@@ -11,7 +11,7 @@ const Social = () => {
         Let’s be friends
       </Typography>
       <Grid container spacing={4} className="pb-126">
-        <Grid item xs={4}>
+        <Grid item lg={4} sm={6} xs={12}>
           <SocialCard
             bgColor="#FB3789"
             icon="/dribbble.svg"
@@ -20,7 +20,7 @@ const Social = () => {
             link="https://dribbble.com/tanu_design"
           />
         </Grid>
-        <Grid item xs={4}>
+        <Grid item lg={4} sm={6} xs={12}>
           <SocialCard
             bgColor="#0064FF"
             icon="/behance.svg"
@@ -29,7 +29,7 @@ const Social = () => {
             link="https://www.behance.net/tanyanarangux"
           />
         </Grid>
-        <Grid item xs={4}>
+        <Grid item lg={4} sm={6} xs={12}>
           <SocialCard
             bgColor="#12100E"
             icon="/medium.svg"
@@ -39,7 +39,7 @@ const Social = () => {
           />
         </Grid>
 
-        <Grid item xs={4}>
+        <Grid item lg={4} sm={6} xs={12}>
           <SocialCard
             bgColor="#0A66C2"
             icon="/linkedin.svg"
@@ -49,7 +49,7 @@ const Social = () => {
           />
         </Grid>
 
-        <Grid item xs={4}>
+        <Grid item lg={4} sm={6} xs={12}>
           <SocialCard
             bgColor="linear-gradient(259.1deg, #C01B7F 13.45%, #DA2648 59.86%, #EB7F37 98.71%)"
             icon="/instagram.svg"
@@ -59,7 +59,7 @@ const Social = () => {
           />
         </Grid>
 
-        <Grid item xs={4}>
+        <Grid item lg={4} sm={6} xs={12}>
           <SocialCard
             bgColor="#4BB4F2"
             icon="/twitter.svg"

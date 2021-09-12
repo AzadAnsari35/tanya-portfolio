@@ -3,6 +3,7 @@ import MuiThemeProvider from "@material-ui/styles/ThemeProvider";
 import theme from "../styles/theme";
 import { Header, Footer } from "../components";
 import "../styles/globalStyling.css";
+import "../styles/responsive.css";
 
 function MyApp({ Component, pageProps }) {
   return (

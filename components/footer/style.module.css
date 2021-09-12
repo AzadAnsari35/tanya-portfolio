@@ -7,3 +7,12 @@
 .button {
   background-color: #fff337 !important;
 }
+
+@media only screen and (max-width: 425px) {
+  .contact_details {
+    display: block !important;
+  }
+  .footerInfo {
+    padding-top: 40px;
+  }
+}

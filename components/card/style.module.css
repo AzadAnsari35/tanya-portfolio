@@ -28,3 +28,9 @@
   align-items: center;
   border-radius: 8px;
 }
+
+@media only screen and (max-width: 425px) {
+  .workCard img {
+    height: 340px;
+  }
+}
