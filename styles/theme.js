@@ -73,7 +73,7 @@ let theme = createTheme({
       },
     },
     h5: {
-      fontFamily: "ITCAvantGardeStdBold",
+      fontFamily: "ITCAvantGardeStdDemi",
       fontWeight: 700,
       fontSize: "2rem",
       "@media (min-width:768px)": {

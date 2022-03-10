@@ -4,7 +4,7 @@ import style from "./style.module.css";
 
 const About = () => {
   return (
-    <div className={`container ${style.root}`}>
+    <div id="about" className={`container ${style.root}`}>
       <Typography className={style.heading} variant="h3">
         About Me
       </Typography>

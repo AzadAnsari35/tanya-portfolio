@@ -6,14 +6,14 @@ import Grid from "@material-ui/core/Grid";
 
 const CaseStudies = () => {
   return (
-    <div>
+    <div id="case-studies">
       <Typography variant="h5" align="center">
         Case Studies
       </Typography>
       <Grid container spacing={4} className={style.container}>
         <Grid item xs={12} lg={4} className="d-flex justify-content-center">
           <Card
-            caption="Groww - A mentorship Platform"
+            caption="Growe.ai - A mentorship Platform"
             imgPath="/case1.png"
             altText="grow"
             width={394}

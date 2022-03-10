@@ -7,7 +7,7 @@ import Button from "@material-ui/core/Button";
 
 const Writings = () => {
   return (
-    <div className={`container ${style.root}`}>
+    <div id="writings" className={`container ${style.root}`}>
       <Typography variant="h5" align="center" className="pb-20">
         Writings
       </Typography>
@@ -45,7 +45,11 @@ const Writings = () => {
         </Grid>
       </Grid>
       <div className={style.buttonWrapper}>
-        <Button className={style.button}>Read More</Button>
+        <Button className={style.button}>
+          <a href="https://tanunarang.medium.com/" target="_blank">
+            Read More
+          </a>
+        </Button>
       </div>
     </div>
   );

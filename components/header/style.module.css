@@ -6,146 +6,191 @@
   width: 100%;
 }
 
-/* .right {
-  width: 68px;
-  height: 68px;
-  background-color: #fff337;
+.right {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background: #fff337;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
-} */
-
-#btn {
-  width: 80px;
-  height: 80px;
-  cursor: pointer;
-  background: #fff337;
-  border-radius: 50%;
-  border: none;
-  outline: none;
+  z-index: 2;
+  position: fixed;
+  left: 90%;
 }
-#btn span {
-  position: absolute;
-  width: 50px;
-  height: 4px;
 
-  background: #262626;
-  border-radius: 2px;
-  overflow: hidden;
-  transition: all 0.3s linear;
-}
-#btn span::before {
+.right:before {
   content: "";
   position: absolute;
-  width: 0;
-  height: 100%;
-  top: 0;
-  right: 0;
-  background: gray;
-  transition: all 0.3s linear;
-}
-#btn span:nth-child(1) {
-  animation: span-first-off 0.5s ease-in-out;
-  animation-fill-mode: forwards;
-}
-#btn span:nth-child(2) {
-  animation: span-second-off 0.5s ease-in-out;
-  animation-fill-mode: forwards;
-}
-#btn span:nth-child(3) {
-  animation: span-third-off 0.5s ease-in-out;
-  animation-fill-mode: forwards;
+  top: 20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #000;
+  height: 2px;
+  width: 20px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
-#btn.on:hover span::before {
+.right:after {
+  content: "";
+  position: absolute;
+  top: 28px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #121212;
+  height: 2px;
+  width: 20px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.__active {
+  background-color: #f7f7f7;
+}
+
+.__active::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+  -moz-transform: translate(-50%, -50%) rotate(45deg);
+  -ms-transform: translate(-50%, -50%) rotate(45deg);
+  -o-transform: translate(-50%, -50%) rotate(45deg);
+  transform: translate(-50%, -50%) rotate(45deg);
+  height: 2px;
+  width: 20px;
+}
+
+.__active::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+  -moz-transform: translate(-50%, -50%) rotate(-45deg);
+  -ms-transform: translate(-50%, -50%) rotate(-45deg);
+  -o-transform: translate(-50%, -50%) rotate(-45deg);
+  transform: translate(-50%, -50%) rotate(-45deg);
+  height: 2px;
+  width: 20px;
+}
+
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+  height: 0;
   width: 100%;
-  transition: all 0.3s linear;
-}
-#btn.on span:nth-child(1) {
-  animation: span-first-on 0.5s ease-in-out;
-  animation-fill-mode: forwards;
-}
-#btn.on span:nth-child(2) {
-  animation: span-second-on 0.5s ease-in-out;
-  animation-fill-mode: forwards;
-}
-#btn.on span:nth-child(3) {
-  animation: span-third-on 0.5s ease-in-out;
-  animation-fill-mode: forwards;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgb(0, 0, 0); /* Black fallback color */
+  background-color: white; /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
 
-@keyframes span-first-on {
-  0% {
-    transform: translate(-50%, -300%);
-  }
-  30% {
-    transform: translate(-50%, -50%);
-  }
-  100% {
-    transform: translate(-50%, -50%) rotate(-45deg);
-  }
+/* Position the content inside the overlay */
+.overlay_content {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  text-align: left; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
 }
-@keyframes span-first-off {
-  0% {
-    transform: translate(-50%, -50%) rotate(-45deg);
-  }
-  30% {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  100% {
-    transform: translate(-50%, -300%);
-  }
+
+/* The navigation links inside the overlay */
+.overlay a {
+  width: fit-content;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 42px;
+  color: #000;
+  cursor: pointer;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s;
+  font-family: "ITCAvantGardeStdBold";
+  position: relative;
+  /* Transition effects on hover (color) */
 }
-@keyframes span-second-on {
-  0% {
-    transform: translate(-50%, -50%);
-  }
-  25% {
-    background: gray;
-  }
-  50% {
-    transform: translate(-50%, -50%) scale(1);
-  }
-  100% {
-    transform: translate(-150%, -50%) scale(0);
-  }
+
+.overlay a:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: -2.5%;
+  top: 70%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 35%;
+  width: 105%;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#fff337),
+    to(#fff337)
+  );
+  background: -webkit-linear-gradient(left, #fff337 0, #fff337 100%);
+  background: -moz-linear-gradient(left, #fff337 0, #fff337 100%);
+  background: -o-linear-gradient(left, #fff337 0, #fff337 100%);
+  background: linear-gradient(to right, #fff337 0, #fff337 100%);
+  background-repeat: no-repeat;
+  -webkit-background-size: 0 100%;
+  -moz-background-size: 0 100%;
+  background-size: 0 100%;
+  opacity: 1;
+  will-change: transform, opacity;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-@keyframes span-second-off {
-  0% {
-    transform: translate(-150%, -50%) scale(0);
-  }
-  25% {
-    background: gray;
-  }
-  50% {
-    transform: translate(-50%, -50%) scale(1);
-  }
-  100% {
-    transform: translate(-50%, -50%);
-  }
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover:before,
+.overlay a:focus {
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
 }
-@keyframes span-third-on {
-  0% {
-    transform: translate(-50%, 200%);
-  }
-  30% {
-    transform: translate(-50%, -50%);
-  }
-  100% {
-    transform: translate(-50%, -50%) rotate(45deg);
-  }
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
 }
-@keyframes span-third-off {
-  0% {
-    transform: translate(-50%, -50%) rotate(45deg);
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
   }
-  30% {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  100% {
-    transform: translate(-50%, 200%);
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
   }
 }
 

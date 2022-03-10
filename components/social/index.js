@@ -6,7 +6,7 @@ import Grid from "@material-ui/core/Grid";
 
 const Social = () => {
   return (
-    <div className={`container ${style.root}`}>
+    <div id="contact" className={`container ${style.root}`}>
       <Typography className={style.heading} variant="h3">
         Let’s be friends
       </Typography>
