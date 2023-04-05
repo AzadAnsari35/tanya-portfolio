@@ -13,12 +13,12 @@ const CaseStudies = () => {
       <Grid container spacing={4} className={style.container}>
         <Grid item xs={12} lg={4} className="d-flex justify-content-center">
           <Card
-            caption="Growe.ai - A mentorship Platform"
+            caption="Revamping Disputes & Chargeback for Cashfree Payments"
             imgPath="/case1.png"
             altText="grow"
             width={394}
             height={394}
-            link="case-studies/groww"
+            link="case-studies/payment"
             isCaseStudy={true}
           />
         </Grid>
@@ -37,11 +37,12 @@ const CaseStudies = () => {
 
         <Grid item xs={12} lg={4} className="d-flex justify-content-center">
           <Card
-            // caption="Grow - B2B Employee Engagement"
-            imgPath="/case3.png"
+            caption="Growe.ai - A mentorship Platform"
+            imgPath="/case1.png"
             altText="grow"
             width={394}
             height={394}
+            link="case-studies/groww"
             isCaseStudy={true}
           />
         </Grid>

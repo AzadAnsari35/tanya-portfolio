@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import style from "./style.module.css";
+import { useRouter } from "next/router";
+import HomeIcon from "@material-ui/icons/home";
 
 const Header = () => {
   const [isClose, setIsClose] = useState(false);
+  const router = useRouter();
 
   const handleNavigation = (e) => {
     const el = e.target;
@@ -16,10 +19,14 @@ const Header = () => {
       <Link href="/">
         <img src="/logo.svg" />
       </Link>
-      <div
-        className={`${style.right} ${isClose ? style.__active : ""}`}
-        onClick={() => setIsClose(!isClose)}
-      ></div>
+      {router.pathname === "/" ? (
+        <div
+          className={`${style.right} ${isClose ? style.__active : ""}`}
+          onClick={() => setIsClose(!isClose)}
+        ></div>
+      ) : (
+        <HomeIcon style={{ fontSize: 50 }} onClick={() => router.push("/")} />
+      )}
       <div
         className={style.overlay}
         style={isClose ? { height: "100%" } : {}}
