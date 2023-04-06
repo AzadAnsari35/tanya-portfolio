@@ -14,7 +14,7 @@ const CaseStudies = () => {
         <Grid item xs={12} lg={4} className="d-flex justify-content-center">
           <Card
             caption="Revamping Disputes & Chargeback for Cashfree Payments"
-            imgPath="/case1.png"
+            imgPath="/cashfree.png"
             altText="grow"
             width={394}
             height={394}

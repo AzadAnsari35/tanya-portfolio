@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import style from "./style.module.css";
 import { useRouter } from "next/router";
-import HomeIcon from "@material-ui/icons/home";
+import HomeIcon from "@material-ui/icons/Home";
 
 const Header = () => {
   const [isClose, setIsClose] = useState(false);
