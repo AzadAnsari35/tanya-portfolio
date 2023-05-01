@@ -10,13 +10,13 @@ export default function Home() {
         <link rel="icon" href="/logo.svg" />
       </Head>
 
-      <Box py={30}>
+      <div style={{ padding: "120px 0px 150px" }}>
         <Typography className="text-align-center" variant="h1">
           Turning Complexities
           <br /> into{" "}
           <span className="color-bright-turquoise"> Simplicity</span>
         </Typography>
-      </Box>
+      </div>
       <About />
       <Work />
       <Writing />

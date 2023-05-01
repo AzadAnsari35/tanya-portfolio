@@ -28,26 +28,28 @@ const Grow = () => {
             The Problem
           </Typography>
           <Typography variant="caption">
-            To find a mentor with similar interests and goals who can help in
-            achieving gaols in a personalised and customised way.
+            To connect with a mentor who shares similar interests and goals,
+            providing personalized and customized guidance to achieve individual
+            aspirations.
           </Typography>
 
           <Typography variant="body1" className=" pt-66 pb-66">
-            Most of the people usually face the problem of understanding where
-            they are going in skill learning and by the time they realise which
-            direction to go to, they end up wasting a lot of time finding the
-            best course, material, learnings available in the market. They spend
-            a lot of time working on the wrong processes because with a lot of
-            directions they often get confused where to go and keep changing
-            things in life.
+            Many individuals often encounter difficulties in skill development,
+            struggling to understand the direction they should pursue.
+            Consequently, they waste valuable time searching for the best
+            courses, materials, and learning resources available in the market.
+            The constant search for the right path leads to confusion, resulting
+            in frequent changes and a sense of aimlessness.
           </Typography>
           <Typography variant="body1">
-            If people get a personalised mentor as per their learning who helps
-            them with their similar experiences which the mentee is currently
-            facing, a lot of things might make sense and the mentee knows that
-            this is the right person to get ahead with, who can help him/her
-            grow as a customised path of learning specially created and curated
-            for him.
+            By having a personalized mentor tailored to their learning needs,
+            individuals can receive guidance from someone who has gone through
+            similar experiences. This mentor can provide valuable insights and
+            help the mentee navigate their current challenges. Having a mentor
+            who understands their unique circumstances can bring clarity and
+            confidence, as the mentee knows they are working with the right
+            person to progress on a customized learning path specifically
+            designed for their growth.
           </Typography>
         </Box>
         <div className={`case-study-container`}>
@@ -56,16 +58,23 @@ const Grow = () => {
               My Role
             </Typography>
             <Typography variant="body1" className="pb-32">
-              As a Product Designer I was responsible for building the
-              experience strategy and design of the ios/android app.
+              As the Product Designer, my primary responsibility was to develop
+              the experience strategy and design for the iOS/Android app.
             </Typography>
             <Typography variant="body1" className="pb-32">
-              I worked on this project as a team of one where I handled the end
-              to end communication with the development and the product team.
+              Working as a sole contributor on this project, I took charge of
+              end-to-end communication with both the development and product
+              teams. This involved coordinating and aligning with the different
+              stakeholders throughout the design process.
             </Typography>
             <Typography variant="body1" className="pb-32">
-              I had conducted User Research with almost 50-100 people and
-              collided the data in a product requirement document.
+              To ensure a user-centered approach, I conducted extensive user
+              research, gathering valuable insights from approximately 50-100
+              individuals. I then synthesized and consolidated the data into a
+              comprehensive product requirement document. This document served
+              as a blueprint for guiding the design and development of the app,
+              ensuring that it addressed the needs and preferences of the target
+              user base.
             </Typography>
           </Box>
 
@@ -74,11 +83,12 @@ const Grow = () => {
               The Solution
             </Typography>
             <Typography variant="body1" className="pb-32">
-              The solution is to create an application with the Mentor - Mentee
-              Model where the Mentee will add the goal. On the basis of the
-              goal, they will be given a list of available mentors and they can
-              choose which mentor to go ahead with and start the learning
-              journey.
+              The proposed solution is to develop an application using the
+              Mentor-Mentee Model. In this application, the Mentee will input
+              their goals, and based on these goals, they will be presented with
+              a curated list of available mentors. The Mentee can then choose
+              the mentor that aligns best with their aspirations and begin their
+              personalized learning journey.
             </Typography>
             <img
               src="/groww/solution.png"
@@ -110,9 +120,9 @@ const Grow = () => {
                 User Research
               </Typography>
               <Typography variant="body1" className="pb-32">
-                I did a research with 70 mentees which includes people working
-                in the industry seeking a job, looking for internship or in
-                final year in college
+                I conducted a research study with 70 individuals, consisting of
+                professionals seeking employment, individuals seeking
+                internships, and final year college students.
               </Typography>
             </Box>
 
@@ -130,23 +140,24 @@ const Grow = () => {
                 Interview Questionnaire
               </Typography>
               <Typography variant="body1" className="pb-32">
-                1. What is the goal you are working towards right now? <br />
-                2. Are you sure of this goal?
-                <br /> 3. How important is this for your career?
-                <br /> 4. What are the steps you are taking to complete this
+                1. What is your current goal that you are working towards?{" "}
+                <br />
+                2. Are you confident about this goal?
+                <br /> 3. How important is this goal for your career?
+                <br /> 4. What specific steps are you taking to achieve this
                 goal?
-                <br /> 5. Are these steps helping you for proceeding in the
-                right direction?
-                <br /> 6. What if you will be provided a mentoe who will help
-                you in your journey, providing you Feedback and direction at
-                every step you take. Will you be intersted in learning in this
-                way?
-                <br /> 7. If yes, How much on a scale of 1 -10?
-                <br /> 8. How much time can you dedicate in a day/week for this
+                <br /> 5. Are these steps guiding you in the right direction?
+                <br /> 6. Imagine having a mentor who can provide you with
+                feedback and guidance at every step of your journey. Would you
+                be interested in learning in this way?
+                <br /> 7. If yes, on a scale of 1-10, how interested are you in
+                having a mentorship like this?
+                <br /> 8. How much time can you allocate per day/week for this
                 kind of mentorship?
-                <br /> 9. If yes, Will you be willing to pay for this kind of
-                mentorship?
-                <br /> 10. How much can you pay in a month for this kind of app?
+                <br /> 9. If mentorship like this were available, would you be
+                willing to pay for it?
+                <br /> 10. If so, how much would you be able to afford per month
+                for this type of mentorship app?
               </Typography>
             </Box>
 
@@ -186,10 +197,10 @@ const Grow = () => {
             </Typography>
 
             <Typography variant="body1" className="pb-32">
-              To test the initial requirements we just built a simple flow
-              without any design criteria just to understand the challenges and
-              did pilot run with almost 100 users. So the flow create was like
-              this-
+              To test the initial requirements, we created a simple flow without
+              any design criteria. The purpose was to gain insights into
+              potential challenges and conduct a pilot run with approximately
+              100 users. The flow we implemented was as follows:
             </Typography>
             <Box display="flex" justifyContent="center">
               <img
@@ -207,9 +218,9 @@ const Grow = () => {
                 The Challenges
               </Typography>
               <Typography variant="body1" className="pb-32">
-                After creating the first basic product, we have pilot run it
-                with a fixed set of users and on the basis of it, I have
-                overcome the following challenges
+                After developing the initial basic product, we conducted a pilot
+                run with a specific group of users. Based on this pilot run, I
+                successfully addressed the following challenges:
               </Typography>
             </Box>
 
@@ -224,19 +235,19 @@ const Grow = () => {
                   color="textPrimary"
                   style={{ paddingRight: 25 }}
                 >
-                  Finding the correct match is really important to fulfil goal
-                  and understand that both the mentor and mentee are aligned in
-                  their expectations. Earlier this was a challenge for us when
-                  we were doing this match manually or randomly. Because most of
-                  the time in the first and second session mentee or mentor
-                  loose interest and trust in the process because of not finding
-                  the correct match therefore, we as a team developed an
-                  alogrithm to find the perfact match as per user’s interests
-                  and skills and show the mentee the match percentage. With
-                  research, I came to understand that experience of both the
-                  person also matters in the matching process therefore, I have
-                  taken that in consideration and came with the algorithm to
-                  find the perfect match.
+                  Finding the right match is crucial to achieving goals and
+                  ensuring alignment between mentors and mentees. Previously,
+                  manually or randomly matching mentors and mentees posed a
+                  challenge. In many cases, mentees and mentors would lose
+                  interest and trust in the process after the first or second
+                  session due to a lack of compatibility. To overcome this, our
+                  team developed an algorithm that considers the users'
+                  interests and skills to find the perfect match. We also
+                  incorporated the importance of experience in the matching
+                  process. Through research and analysis, I formulated an
+                  algorithm that calculates a match percentage and presents it
+                  to the mentee, increasing the likelihood of finding a suitable
+                  mentor.
                 </Typography>
                 <img src="/groww/1.png" />
               </Box>
@@ -253,19 +264,20 @@ const Grow = () => {
                   color="textPrimary"
                   style={{ paddingRight: 25 }}
                 >
-                  The other challenge I got was the communication part between
-                  the mentor and the mentee. Most of the time Mentor would not
-                  initiate as they think that they are the superior in realtion
-                  and the mentee should start the conversation and mentee
-                  sometimes did not find the correct format to start the
-                  conversation and this was the loophole we get to understand
-                  after a long time. We struggle with this part to make
-                  meaningful relation between the mentee and the mentor. so that
-                  the mentee can easily share their problems with the mentor and
-                  the mentor can understand the situation of the mentee and help
-                  them in a better way. So to resolve this challenge we have
-                  came up with series of ice breaking formats which the mentee
-                  would ask the mentor to make the relation stronger and better.
+                  One challenge I faced was the communication gap between the
+                  mentor and mentee. Sometimes, mentors would not initiate
+                  communication because they feel that they are in a superior
+                  position, while mentees struggle to find the correct way to
+                  start the conversation. After much investigation, we realized
+                  that this was a significant issue, as a meaningful
+                  relationship between mentor and mentee is crucial to success.
+                  To address this, we developed a series of ice-breaking formats
+                  that mentees could use to initiate conversations and build
+                  stronger relationships with their mentors. This approach has
+                  helped mentees feel more comfortable sharing their problems
+                  with their mentors, while mentors are better able to
+                  understand their mentees' situations and provide tailored
+                  guidance.
                 </Typography>
                 <img style={{ objectFit: "contain" }} src="/groww/2.png" />
               </Box>
@@ -282,16 +294,20 @@ const Grow = () => {
                   color="textPrimary"
                   style={{ paddingRight: 25 }}
                 >
-                  So, the next challenge which arose as a part of this mentoring
-                  journey was syncing the available time for both the mentor and
-                  mentee. So, most of the time mentor creates a meeting and on
-                  the scheduled time mentee would not show up and vice versa.
-                  So, to understand why is this happening we asked the mentor
-                  and mentee the reason of so many misssed meetings. I came to
-                  the understanding that they need the calendar integration
-                  along with a confirmation from the other party about them
-                  joining the call so that they only show up if the other person
-                  has confirmed about the meeting.
+                  Another challenge that emerged during the mentoring journey
+                  was synchronizing the available time for both mentors and
+                  mentees. Often, mentors would schedule a meeting, but the
+                  mentee would not show up, and vice versa. To address this
+                  issue, we sought to understand the reasons behind these missed
+                  meetings. Through discussions with mentors and mentees, we
+                  discovered that they needed calendar integration and a
+                  confirmation from the other party to ensure they would join
+                  the call. To resolve this challenge, we implemented a system
+                  that integrates with their calendars and requires confirmation
+                  from both parties before a meeting is considered confirmed.
+                  This way, mentors and mentees can be certain that the other
+                  person has confirmed their availability before attending the
+                  scheduled meeting.
                 </Typography>
                 <img src="/groww/3.png" />
               </Box>
@@ -308,22 +324,21 @@ const Grow = () => {
                   color="textPrimary"
                   style={{ paddingRight: 25 }}
                 >
-                  Progress in an integral part of the goal and most of the times
-                  it is really necessary for the mentee to see and measure their
-                  progress so that they are disciplined and determined to
-                  achieve the goal. As the goal is a long time committment and
-                  most of the working employees give up in between working of
-                  the goal. So to motivate them and to keep them going it was
-                  really important to provide them rea time progress of their
-                  time work and investment. So, after a lot of research and
-                  understanding we divided the goals into tasks and tasks into
-                  skills and we provide them the graph of the progress on the
-                  basis of how they are performing in their respective tasks.
-                  There were a lot of discussions on the rating as well,
-                  wheather it should be a star based rating or points based out
-                  of 10 and I tend to understand that the mentees were mor
-                  intersted in incresing their star rating instead of their
-                  number grade therefore the system was star rating based.
+                  Progress is an integral part of achieving goals, and it is
+                  essential for mentees to measure their progress to remain
+                  disciplined and determined in their pursuits. However, working
+                  professionals often give up on their goals due to the time
+                  commitment required. To keep them motivated and on track, it
+                  was crucial to provide them with real-time progress updates.
+                  After extensive research and discussions, we divided goals
+                  into tasks and further into skills, and provided the mentees
+                  with a graph of their progress based on their performance in
+                  each task. There were several discussions on the rating
+                  system, whether it should be star-based or points-based out of
+                  10. Based on our understanding, we found that mentees were
+                  more interested in increasing their star rating than their
+                  number grade. Therefore, we designed the system to be star
+                  rating-based.
                 </Typography>
                 <img src="/groww/4.png" />
               </Box>
@@ -340,15 +355,18 @@ const Grow = () => {
                   color="textPrimary"
                   style={{ paddingRight: 25 }}
                 >
-                  So, the next challenge they came across is to add the notes
-                  and managing them so the next time the mentee and mentor want
-                  to take note of, it should be organised in a way that there is
-                  ease in using and accessing the notes. Also we get to know
-                  that most of the notes are sometimes from the chat which the
-                  user has to take a lot of effor to copy and paste the messages
-                  in the notes. So we came up with feature of add ing the
-                  message to notes at double tap of the message. It helps the
-                  user to arrange and add the notes easily.
+                  The challenge that arose next was the need to add and manage
+                  notes effectively. It was important to have a system in place
+                  that would organize the notes in a user-friendly manner,
+                  making it easy for both the mentee and mentor to access them
+                  when needed. We also discovered that many notes were taken
+                  from chat conversations, which required users to manually copy
+                  and paste the messages into their notes. To address this
+                  challenge, we introduced a new feature that allows users to
+                  add messages to their notes with a simple double-tap. This
+                  feature simplifies the process of arranging and adding notes,
+                  providing users with a convenient way to capture important
+                  information from their conversations.
                 </Typography>
                 <img src="/groww/5.png" />
               </Box>
@@ -365,14 +383,15 @@ const Grow = () => {
                   color="textPrimary"
                   style={{ paddingRight: 25 }}
                 >
-                  Engagement was very necessary because its a two way process.
-                  Even losing the interest from a single person side will be the
-                  losss of both. So, I wanted a technique where the user feels
-                  good and motivated about using the application. I have gone
-                  through the book “Hooked” and came to get a few rules to make
-                  this goal a habit for the user. So below are a few techniques
-                  to make the user feel engaged - 1) Rewards for mentee. 2)?
-                  Recognition for mentor in the profile.
+                  Engagement is critical in a two-way process like mentoring.
+                  Losing interest from even one person's side can result in a
+                  loss for both parties. Hence, I wanted to implement techniques
+                  to keep the users motivated and interested in using the
+                  application. To achieve this, I researched the book "Hooked"
+                  and found some rules to turn this into a habit for the users.
+                  Here are a few techniques I found to engage the users
+                  effectively - 1) Rewards for mentee. 2) Recognition for mentor
+                  in the profile.
                 </Typography>
                 <img src="/groww/6.png" />
               </Box>

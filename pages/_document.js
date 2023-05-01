@@ -8,9 +8,9 @@ export default class MyDocument extends Document {
         <Head>
           {/* PWA primary color */}
           {/* <meta name="theme-color" content={theme.palette.primary.main} /> */}
-          <link rel="stylesheet" href="/fonts/ITCAvantGardeStdBk.css" />
+          {/* <link rel="stylesheet" href="/fonts/ITCAvantGardeStdBk.css" />
           <link rel="stylesheet" href="/fonts/ITCAvantGardeStdBold.css" />
-          <link rel="stylesheet" href="/fonts/ITCAvantGardeStdDemi.css" />
+          <link rel="stylesheet" href="/fonts/ITCAvantGardeStdDemi.css" /> */}
         </Head>
         <body>
           <Main />

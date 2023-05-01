@@ -42,66 +42,64 @@ const Payment = () => {
             </Typography>
             <Box pl={30}>
               <Typography variant="body1" className="pb-12">
-                It was a Monday morning, I went to the office and entered into
-                the cafeteria. I picked a cup and as I was pouring hot water
-                into it and mixing green tea into it, I heard a voice from
-                behind.
+                It was a Monday morning, and as I entered the office cafeteria,
+                I grabbed a cup and started pouring hot water into it, preparing
+                to mix in some green tea. Suddenly, I heard a voice from behind.
               </Typography>
               <Typography variant="body1" className="pb-12">
-                “Hey Tanya” Kriti called me.
+                "Hey Tanya," Kriti called out to me.
               </Typography>
               <Typography variant="body1" className="pb-12">
-                Kriti is the PM of Disputes and Chargebacks in cashfree
-                payments. She is very humble and kind person to work with. You
-                will always find her smiling. She is one of the PM in cashfree
-                who works with utmost pressure but she never shows it in her
-                face.
+                Kriti is the PM of Disputes and Chargebacks at Cashfree
+                Payments. She is a remarkably humble and kind person to work
+                with, always sporting a smile. Despite the immense pressure that
+                comes with her role, she manages to keep a composed demeanor.
               </Typography>
               <Typography variant="body1" className="pb-12">
-                I am usually working in the settlements ( If you don’t know what
-                is settlements, it is just another product in cashfree whose
-                design I was handling). So the context is that I have never
-                worked in disputes or with Kriti. I have just met her in a few
-                office parties.
+                Typically, I work on settlements at Cashfree (in case you're not
+                familiar, settlements is another product at Cashfree, and I was
+                responsible for its design). So, it's worth noting that I
+                haven't worked on disputes before or collaborated with Kriti
+                closely. We've only crossed paths at a few office parties.
               </Typography>
               <Typography variant="body1" className="pb-12">
-                “Oh Hi Kriti, How is it going?.” I said.
+                "Oh, hi Kriti! How's it going?" I greeted her.
               </Typography>
               <Typography variant="body1" className="pb-12">
-                “Tanya, everything is not really going well. I need your help?”
-                She said.
+                "Tanya, things aren't going well, to be honest. I need your
+                help," she replied.
               </Typography>
               <Typography variant="body1" className="pb-12">
-                “Oh what happened?” I enquired
+                "What happened?" I inquired.
               </Typography>
               <Typography variant="body1" className="pb-32">
-                We need some design help in disputes and chargebacks. We are
-                really behind in terms of user experience and a lot of manual
-                effort has been made by our internal team as well as our
-                merchants to resolve these disputes.
+                We're in dire need of design assistance for disputes and
+                chargebacks. Our user experience is falling behind, and both our
+                internal team and merchants have been putting in a lot of manual
+                effort to resolve these disputes.
               </Typography>
               <Typography variant="body1" className="pb-12">
-                “Relax Kriti you seem so worried, we will handle the situation,
-                don’t worry.” I said.
+                "Don't worry, Kriti. You seem quite stressed, but we'll handle
+                the situation," I reassured her.
               </Typography>
               <Typography variant="body1" className="pb-12">
-                “Tanya, we really have no time to relax, this project is a high
-                priority now, since you are working in settlements I have asked
-                Susheel (Group PM of settlements and Disputes, Kriti’s immediate
-                manager also) to take half of your bandwidth and involve you in
-                the disputes.”
+                "Tanya, we really can't afford to relax. This project has become
+                a top priority. Since you work on settlements, I've asked
+                Susheel (the Group PM of settlements and disputes, who is
+                Kriti's immediate manager) to allocate half of your bandwidth
+                and involve you in the disputes."
               </Typography>
               <Typography variant="body1" className="pb-12">
-                “Perfect, so lets connect today and you provide me the basic
-                information of Disputes and chargebacks since I know nothing
-                about the product.” I said.
+                "Perfect. Let's connect today, and you can provide me with the
+                basic information about disputes and chargebacks, as I'm not
+                familiar with the product," I suggested.
               </Typography>
               <Typography variant="body1" className="pb-12">
-                “Sure, I have already scheduled a call with you at 3 in the
-                afternoon. See you then.” Kriti said.
+                "Sure, I've already scheduled a call with you at 3 in the
+                afternoon. See you then," Kriti confirmed.
               </Typography>
               <Typography variant="body1" className="pb-12">
-                “Perfect, I‘ll see you” I said and I left towards my seat.
+                "Great, I'll see you then," I said, as I headed back to my seat.
               </Typography>
             </Box>
           </Box>
@@ -112,49 +110,49 @@ const Payment = () => {
             </Typography>
             <Box pl={30}>
               <Typography variant="body1" className="pb-12">
-                It was 2:50 in the afternoon, I was working on an important
-                design task and I heard a buzz from my laptop. Oh it was the
-                calendar reminder. I have to meet Kriti.
+                At 2:50 in the afternoon, while engrossed in an important design
+                task, my laptop buzzed with a calendar reminder. Ah, that's
+                right—I had to meet Kriti.
               </Typography>
               <Typography variant="body1" className="pb-12">
-                I went to Kriti’s desk as she was tallking to a merchant on
-                call.
+                I walked over to Kriti's desk, where she was engaged in a call
+                with a merchant.
               </Typography>
               <Typography variant="body1" className="pb-12">
-                “I am so sorry for the inconvenience caused to you.” Kriti said
-                to someone on the phone.
+                "I sincerely apologize for the inconvenience caused to you,"
+                Kriti expressed over the phone.
               </Typography>
               <Typography variant="body1" className="pb-12">
-                Some pause while she is listening to the other person on the
-                phone.
+                There was a momentary pause as she attentively listened to the
+                other person.
               </Typography>
               <Typography variant="body1" className="pb-12">
-                “Definitely Sir, I will try to resolve this as soon as possible.
-                Thanks for understanding Sir.” Kriti replied and disconnected
-                the call.
+                "Absolutely, sir. I will make every effort to resolve this as
+                quickly as possible. Thank you for your understanding, sir,"
+                Kriti responded before ending the call.
               </Typography>
               <Typography variant="body1" className="pb-12">
-                She was very worried so I asked her, “What happened Kriti?”
+                She seemed deeply concerned, so I asked, "What happened, Kriti?"
               </Typography>
               <Typography variant="body1" className="pb-12">
-                She said,” A merchant was complaining that he had already
-                uploaded the documents for a dispute raised against him. But
-                still from our end we are showing his status as “Dispute Lost
-                because no documents uploaded. He was very angry and we are
-                getting such queries every single day these days Tanya. There
-                are some more issues we are facing along with it.”
+                She replied, "A merchant has been complaining that despite
+                having already uploaded the necessary documents for a dispute
+                raised against them, our system shows their status as 'Dispute
+                Lost because no documents uploaded.' The merchant was furious,
+                and we've been receiving such queries almost every day lately,
+                Tanya. Additionally, we're facing a few other issues."
               </Typography>
               <Typography variant="body1" className="pb-12">
-                Hmm I see, The problem is critical and we need to do some quick
-                fixes as soon as possible so you don’t have to face this
-                atleast. For now just give me the gist of the product so I can
-                understand the basic process first.
+                "I understand. This problem is critical, and we need to
+                implement some quick fixes as soon as possible to spare you from
+                such situations. For now, just give me an overview of the
+                product so that I can grasp the basic process," I suggested.
               </Typography>
               <Typography variant="body1" className="pb-12">
-                “Sure, let's start with the basic definition of disputes, types
-                of disputes and the lifecycle of the dispute” she said while she
-                opened a document in her laptop. It was the document which she
-                needs to explain to me.
+                "Sure, let's begin with a brief definition of disputes, the
+                various types of disputes, and the lifecycle of a dispute," she
+                replied, opening a document on her laptop—a document she
+                intended to use to explain the details to me.
               </Typography>
             </Box>
           </Box>
@@ -201,11 +199,13 @@ const Payment = () => {
             </Typography>
             <Box pl={30}>
               <Typography variant="body1" className="pb-12">
-                After understanding what a dispute and a Chargeback is I asked
-                Kriti to do an initial level product role play where I became
-                the merchant and she was updating everything from the backend
-                tool of the merchant dashboard which is known as Retool. Below
-                is the screen shots of the process.
+                After gaining an understanding of what a dispute and a
+                chargeback entail, I requested Kriti to engage in an initial
+                product role play. In this scenario, I assumed the role of a
+                merchant, while she took charge of updating everything using the
+                backend tool of the merchant dashboard, called Retool. The
+                following are the screenshots capturing the step-by-step
+                process:
               </Typography>
             </Box>
           </Box>
@@ -364,44 +364,53 @@ const Payment = () => {
             </Typography>
             <Box pl={30} component={"ol"}>
               <Typography component={"li"} variant="body1" className="pb-12">
-                There is no Target date shown to the user
+                Ensure clear visibility of the target date for the user to track
+                resolution timelines effectively.
               </Typography>
               <Typography component={"li"} variant="body1" className="pb-12">
-                Transaction ID missing
+                Display the transaction ID prominently for easy reference and
+                tracking.
               </Typography>
               <Typography component={"li"} variant="body1" className="pb-12">
-                New Disputes should be highlighted
+                Highlight new disputes distinctly to draw attention to recently
+                raised issues.
               </Typography>
               <Typography component={"li"} variant="body1" className="pb-12">
-                Important and Urgent actions should be highlighted
+                Use visual cues or indicators to emphasize important and urgent
+                actions that require immediate attention.
               </Typography>
               <Typography component={"li"} variant="body1" className="pb-12">
-                Chargebacks and Disputes category should be shown to the
-                merchant along with the pre-arbi and arb phases
+                Include a separate section for Chargebacks and Disputes,
+                showcasing the different phases such as pre-arbitration and
+                arbitration, to provide a comprehensive overview to the
+                merchant.
               </Typography>
               <Typography component={"li"} variant="body1" className="pb-12">
-                There is no information & indiaction of the new messages and
-                communication
+                Implement a notification system or visual indication to inform
+                users about new messages and communication related to disputes.
               </Typography>
               <Typography component={"li"} variant="body1" className="pb-12">
-                Summary Addition of Open, Closed, Critial (Action Required
-                Disputes)
+                Add a summary section that provides a breakdown of open, closed,
+                and critical disputes requiring immediate action.
               </Typography>
               <Typography component={"li"} variant="body1" className="pb-12">
-                Disputes raised transactions are not highlighted in the payments
-                tab.
+                Highlight disputed transactions within the payments tab to
+                differentiate them from regular transactions.
               </Typography>
               <Typography component={"li"} variant="body1" className="pb-12">
-                Merchant have no option to accept or contest dispute.
+                Provide merchants with the option to accept or contest disputes,
+                enabling them to take appropriate actions based on their
+                assessment.
               </Typography>
               <Typography component={"li"} variant="body1" className="pb-12">
-                Multiple disputes linked to the same transaction should be shown
-                here.
+                Ensure that multiple disputes linked to the same transaction are
+                clearly visible, allowing merchants to manage them efficiently.
               </Typography>
               <Typography component={"li"} variant="body1" className="pb-12">
-                Dispute Detail should be there where the reason of dispute and
-                the document required for the relevant dispute and line of
-                business should be marked
+                Include a dispute detail section that provides comprehensive
+                information, including the reason for the dispute, required
+                documents, and relevant line of business, to facilitate
+                streamlined resolution processes.
               </Typography>
             </Box>
           </Box>
@@ -413,7 +422,7 @@ const Payment = () => {
                   src="/payment/pain1.png"
                   style={{ objectFit: "fill" }}
                   width="100%"
-                  height="400"
+                  height="100%"
                 />
               </Grid>
               <Grid item xs={6}>
@@ -421,7 +430,7 @@ const Payment = () => {
                   src="/payment/pain2.png"
                   style={{ objectFit: "fill" }}
                   width="100%"
-                  height="400"
+                  height="100%"
                 />
               </Grid>
               <Grid item xs={6}>
@@ -429,7 +438,7 @@ const Payment = () => {
                   src="/payment/pain3.png"
                   style={{ objectFit: "fill" }}
                   width="100%"
-                  height="400"
+                  height="100%"
                 />
               </Grid>
             </Grid>
@@ -451,7 +460,7 @@ const Payment = () => {
                   src="/payment/ideating1.png"
                   style={{ objectFit: "fill" }}
                   width="100%"
-                  height="400"
+                  height="100%"
                 />
               </Grid>
               <Grid item xs={6}>
@@ -459,7 +468,7 @@ const Payment = () => {
                   src="/payment/ideating2.png"
                   style={{ objectFit: "fill" }}
                   width="100%"
-                  height="400"
+                  height="100%"
                 />
               </Grid>
               <Grid item xs={6}>
@@ -467,7 +476,7 @@ const Payment = () => {
                   src="/payment/ideating3.png"
                   style={{ objectFit: "fill" }}
                   width="100%"
-                  height="400"
+                  height="100%"
                 />
               </Grid>
               <Grid item xs={6}>
@@ -475,7 +484,7 @@ const Payment = () => {
                   src="/payment/ideating4.png"
                   style={{ objectFit: "fill" }}
                   width="100%"
-                  height="400"
+                  height="100%"
                 />
               </Grid>
               <Grid item xs={6}>
@@ -483,7 +492,7 @@ const Payment = () => {
                   src="/payment/ideating5.png"
                   style={{ objectFit: "fill" }}
                   width="100%"
-                  height="400"
+                  height="100%"
                 />
               </Grid>
               <Grid item xs={6}>
@@ -491,7 +500,7 @@ const Payment = () => {
                   src="/payment/ideating6.png"
                   style={{ objectFit: "fill" }}
                   width="100%"
-                  height="400"
+                  height="100%"
                 />
               </Grid>
             </Grid>
@@ -529,7 +538,7 @@ const Payment = () => {
                   src="/payment/final1.png"
                   style={{ objectFit: "fill" }}
                   width="100%"
-                  height="400"
+                  height="100%"
                 />
               </Grid>
               <Grid item xs={6}>
@@ -537,7 +546,7 @@ const Payment = () => {
                   src="/payment/final2.png"
                   style={{ objectFit: "fill" }}
                   width="100%"
-                  height="400"
+                  height="100%"
                 />
               </Grid>
               <Grid item xs={6}>
@@ -545,7 +554,7 @@ const Payment = () => {
                   src="/payment/final3.png"
                   style={{ objectFit: "fill" }}
                   width="100%"
-                  height="400"
+                  height="100%"
                 />
               </Grid>
               <Grid item xs={6}>
@@ -553,7 +562,7 @@ const Payment = () => {
                   src="/payment/final4.png"
                   style={{ objectFit: "fill" }}
                   width="100%"
-                  height="400"
+                  height="100%"
                 />
               </Grid>
               <Grid item xs={6}>
@@ -561,7 +570,7 @@ const Payment = () => {
                   src="/payment/final5.png"
                   style={{ objectFit: "fill" }}
                   width="100%"
-                  height="400"
+                  height="100%"
                 />
               </Grid>
               <Grid item xs={6}>
@@ -569,7 +578,7 @@ const Payment = () => {
                   src="/payment/final6.png"
                   style={{ objectFit: "fill" }}
                   width="100%"
-                  height="400"
+                  height="100%"
                 />
               </Grid>
               <Grid item xs={6}>
@@ -577,7 +586,7 @@ const Payment = () => {
                   src="/payment/final7.png"
                   style={{ objectFit: "fill" }}
                   width="100%"
-                  height="400"
+                  height="100%"
                 />
               </Grid>
               <Grid item xs={6}>
@@ -585,7 +594,7 @@ const Payment = () => {
                   src="/payment/final8.png"
                   style={{ objectFit: "fill" }}
                   width="100%"
-                  height="400"
+                  height="100%"
                 />
               </Grid>
               <Grid item xs={6}>
@@ -593,7 +602,7 @@ const Payment = () => {
                   src="/payment/final9.png"
                   style={{ objectFit: "fill" }}
                   width="100%"
-                  height="400"
+                  height="100%"
                 />
               </Grid>
               <Grid item xs={6}>
@@ -601,7 +610,7 @@ const Payment = () => {
                   src="/payment/final10.png"
                   style={{ objectFit: "fill" }}
                   width="100%"
-                  height="400"
+                  height="100%"
                 />
               </Grid>
             </Grid>
@@ -645,7 +654,7 @@ const useStyles = makeStyles(() => {
       flexDirection: "column",
     },
     heading: {
-      minWidth: 315,
+      minWidth: 300,
     },
     links: {
       display: "flex",

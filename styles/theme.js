@@ -3,7 +3,7 @@ import { createTheme, responsiveFontSizes } from "@material-ui/core/styles";
 let theme = createTheme({
   typography: {
     fontFamily: [
-      "ITCAvantGardeStdBk",
+      "Mulish",
       "Arial",
       "-apple-system",
       "BlinkMacSystemFont",
@@ -33,9 +33,10 @@ let theme = createTheme({
   typography: {
     h1: {
       fontSize: "6rem",
-      fontFamily: "ITCAvantGardeStdBold",
+      fontFamily: "Mulish",
       lineHeight: "8rem",
       letterSpacing: "0rem",
+      fontWeight: 800,
       "@media (min-width:1024px)": {
         fontSize: "5.5rem",
       },
@@ -47,8 +48,8 @@ let theme = createTheme({
       },
     },
     h2: {
-      fontFamily: "ITCAvantGardeStdBold",
-      fontWeight: 700,
+      fontFamily: "Mulish",
+      fontWeight: 800,
       fontSize: "4rem",
       color: "#ffffff",
       "@media (min-width:1024px)": {
@@ -62,8 +63,8 @@ let theme = createTheme({
       },
     },
     h3: {
-      fontFamily: "ITCAvantGardeStdBold",
-      fontWeight: 700,
+      fontFamily: "Mulish",
+      fontWeight: 800,
       fontSize: "2.5rem",
       "@media (min-width:768px)": {
         fontSize: "2rem",
@@ -73,8 +74,8 @@ let theme = createTheme({
       },
     },
     h5: {
-      fontFamily: "ITCAvantGardeStdDemi",
-      fontWeight: 700,
+      fontFamily: "Mulish",
+      fontWeight: 800,
       fontSize: "2rem",
       "@media (min-width:768px)": {
         fontSize: "1.8rem",
@@ -84,10 +85,9 @@ let theme = createTheme({
       },
     },
     caption: {
-      fontFamily: "ITCAvantGardeStdBk",
-      fontWeight: "bold",
+      fontFamily: "Mulish",
       fontSize: "1.5rem",
-      lineHeight: "2.25rem",
+      lineHeight: "2rem",
       "@media (min-width:768px)": {
         fontSize: "1.2rem",
       },
@@ -96,8 +96,8 @@ let theme = createTheme({
       },
     },
     subtitle1: {
-      fontFamily: "ITCAvantGardeStdBold",
-      fontWeight: 700,
+      fontFamily: "Mulish",
+      fontWeight: 800,
       fontSize: "1.875rem",
       color: "#fff",
       "@media (min-width:768px)": {
@@ -108,8 +108,20 @@ let theme = createTheme({
       },
     },
 
+    subtitle2: {
+      fontFamily: "Mulish",
+      fontWeight: 300,
+      fontSize: "1.25rem",
+      "@media (min-width:768px)": {
+        fontSize: "1.10rem",
+      },
+      "@media (max-width:500px)": {
+        fontSize: "1rem",
+      },
+    },
+
     body1: {
-      fontFamily: "ITCAvantGardeStdBk",
+      fontFamily: "Mulish",
       fontWeight: 300,
       fontSize: "1.25rem",
       "@media (min-width:768px)": {
@@ -120,7 +132,7 @@ let theme = createTheme({
       },
     },
     body2: {
-      fontFamily: "ITCAvantGardeStdBk",
+      fontFamily: "Mulish",
       fontWeight: 300,
       fontSize: "1.125rem",
       "@media (max-width:768px)": {
@@ -133,7 +145,7 @@ let theme = createTheme({
     MuiButton: {
       root: {
         fontSize: "1.25rem",
-        fontFamily: "ITCAvantGardeStdBk",
+        fontFamily: "Mulish",
         borderRadius: 70,
         textTransform: "none",
         fontWeight: "bold",

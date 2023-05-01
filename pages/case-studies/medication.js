@@ -28,21 +28,24 @@ const Medication = () => {
             The Problem
           </Typography>
           <Typography variant="body1">
-            To arrange and organize all the medicine with the expiry date,
-            instructions, different bottles and maintain a schedule out of it.
+            To efficiently manage medication administration, including
+            organizing medicines with their respective expiry dates,
+            instructions, and different bottles, while also maintaining a proper
+            schedule.
           </Typography>
 
           <Typography variant="body1" className=" pt-66">
-            At an Old age home, a lot of things needs to be organized like the
-            daily care of the residents, the caregiver's plan, their shifts,
-            their wellness and etc. Medication is a big part of this whole flow.
-            As much as it seems eeasy to give medicine to every patient at the
-            scheduled time, The complexities are there in it and to resolve all
-            these complexities ,This module of E- Mar is all about solving the
-            problem around the medications. The facility will ensure
-            self-administered medication is managed appropriately to ensure the
-            integrity of the medication and safety of all residents residing in
-            the facility.
+            At an Old Age home, numerous aspects require organization, such as
+            daily care for residents, caregiver planning, shift scheduling, and
+            overall wellness. Among these, medication plays a crucial role.
+            While it may seem straightforward to administer medication to each
+            patient at the designated time, there are inherent complexities
+            involved. To address and resolve these complexities, the E-Mar
+            module has been developed specifically to tackle medication-related
+            challenges. The module ensures that self-administered medication is
+            appropriately managed, maintaining the integrity of the medication
+            and ensuring the safety of all residents residing within the
+            facility.
           </Typography>
         </Box>
         <div className={`case-study-container`}>
@@ -51,10 +54,11 @@ const Medication = () => {
               My Role
             </Typography>
             <Typography variant="body1" className="pb-32">
-              I, being the only designer in the project, was handling end to end
-              process from research to delivery. I conducted some research
-              around the project and came with solution to make it easy and
-              understandable for the client.
+              As the sole designer on the project, I took on the responsibility
+              of managing the end-to-end process, from conducting research to
+              final delivery. Recognizing the importance of creating a
+              user-friendly and comprehensible solution for the client, I
+              conducted thorough research to inform my design approach.
             </Typography>
           </Box>
 
@@ -310,29 +314,40 @@ const Medication = () => {
               <Typography variant="subtitle1" color="textPrimary">
                 Some important point to be noted
               </Typography>
-              <Typography
-                variant="body1"
-                className="pb-24 pt-20"
-                color="textPrimary"
-              >
-                1. Schedule is maintained for the Routine Meds, but there is no
-                schedule for PRN meds. <br />
-                2. PRN Meds are recorded in the inventory so, every patient has
-                some fixed set of PRNs in the database. <br />
-                3. Even if the patient is getting the same medicine but now two
-                patients are given medicine from the same bottle. Every Patient
-                needs to take medicine from the individual bottles assigned to
-                them. <br />
-                4. The Separate bottle information needs to be captured
-                separately but in a way that they represent the same medicine.{" "}
-                <br />
-                5. Sometimes Medicine is broken, missed, or thrown so the count
-                may vary and needs to be recorded. <br />
-                6. Since It is not known which bottle will be opened next so, It
-                was important to assign some unique Id to the bottle as there is
-                no unique id as of now.
-                <br />
-              </Typography>
+
+              <Box className="pb-24 pt-20" component={"ol"}>
+                <Typography component={"li"} variant="body1" className="pb-12">
+                  Implement a scheduling system for PRN (as-needed) medications
+                  to ensure that they are administered as required, just like
+                  routine medications.
+                </Typography>
+                <Typography component={"li"} variant="body1" className="pb-12">
+                  Record PRN medications in the inventory, associating each
+                  patient with a specific set of PRN medications stored in the
+                  database.
+                </Typography>
+                <Typography component={"li"} variant="body1" className="pb-12">
+                  Ensure that even if multiple patients are prescribed the same
+                  medication, each patient receives their medicine from an
+                  individually assigned bottle to maintain medication
+                  traceability and prevent errors.
+                </Typography>
+                <Typography component={"li"} variant="body1" className="pb-12">
+                  Capture separate bottle information in a way that reflects the
+                  same medication, allowing for unique identification of each
+                  bottle.
+                </Typography>
+                <Typography component={"li"} variant="body1" className="pb-12">
+                  Account for instances where medications are broken, missed, or
+                  discarded, as this may affect the count, and record such
+                  occurrences accordingly.
+                </Typography>
+                <Typography component={"li"} variant="body1" className="pb-12">
+                  Assign unique IDs to medication bottles to facilitate tracking
+                  and management, especially since the order in which bottles
+                  are opened may be unpredictable due to varying patient needs.
+                </Typography>
+              </Box>
             </Box>
           </Box>
 
@@ -416,14 +431,15 @@ const Medication = () => {
             </Typography>
 
             <Typography variant="body1" className="pb-24" color="textPrimary">
-              I have not added the Med pass report over here since I have
-              noticed that the Pass, Fail status is irrespective of the patient
-              and they need to be arranged in such a fashion that the facility
-              admin can check the status of all patients on a single screen.
-              Also, there are other reports which she wants to check so many
-              times like the Nutrition report, Vital Report so, going ahead I am
-              going to create a new module for the report itself where she can
-              see all the reports in a single place.
+              I have not included the Med pass report in this description
+              because I've observed that the pass/fail status is not specific to
+              individual patients. Therefore, it would be beneficial to arrange
+              the information in a way that allows the facility admin to view
+              the status of all patients on a single screen. Additionally, there
+              are other reports, such as the Nutrition report and Vital Report,
+              that she frequently needs to access. To address this, I will
+              develop a new module dedicated to reports, where she can
+              conveniently view all the reports in one centralized location.
             </Typography>
           </Box>
         </div>

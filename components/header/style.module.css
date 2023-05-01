@@ -125,7 +125,8 @@
   cursor: pointer;
   display: block; /* Display block instead of inline */
   transition: 0.3s;
-  font-family: "ITCAvantGardeStdBold";
+  font-family: "Mulish";
+  font-weight: 800;
   position: relative;
   /* Transition effects on hover (color) */
 }
